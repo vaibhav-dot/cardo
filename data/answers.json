@@ -1,0 +1,52 @@
+{
+  "start": "2025-11-01",
+  "end": "2026-10-31",
+  "subscriptions": [
+    {
+      "merchant": "Netflix",
+      "day_of_month": 3,
+      "amount": 12.99,
+      "price_rise": {
+        "from": 10.99,
+        "to": 12.99,
+        "month": "2026-03"
+      }
+    },
+    {
+      "merchant": "Spotify",
+      "day_of_month": 14,
+      "amount": 11.99
+    },
+    {
+      "merchant": "PureGym",
+      "day_of_month": 1,
+      "amount": 34.99
+    },
+    {
+      "merchant": "Disney+",
+      "day_of_month": 20,
+      "amount": 8.99,
+      "cancelled_after": "2026-05"
+    },
+    {
+      "merchant": "iCloud",
+      "day_of_month": 9,
+      "amount": 2.99
+    }
+  ],
+  "habits": [
+    "Weekly Tesco shop every Saturday (£55–95)",
+    "Pret coffee on most weekdays",
+    "Salary of £2,850 on the 25th",
+    "One-off £649 Currys purchase on 2026-09-13 (anomaly)"
+  ],
+  "total_spend_by_category": {
+    "Bills": 1444.31,
+    "Eating Out": 2492.93,
+    "Groceries": 5036.23,
+    "Housing": 15000,
+    "Shopping": 2248.64,
+    "Subscriptions": 810.45,
+    "Transport": 1565.55
+  }
+}

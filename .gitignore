@@ -1,0 +1,6 @@
+.env
+node_modules/
+dist/
+.promptfoo/
+# real bank exports must never be committed
+data/real/

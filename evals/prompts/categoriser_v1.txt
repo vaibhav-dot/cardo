@@ -1,0 +1,7 @@
+Categorise this UK bank transaction into exactly one of:
+Income, Housing, Bills, Subscriptions, Groceries, Eating Out, Transport, Shopping, Other
+
+Transaction: {{description}}
+Amount: {{amount}}
+
+Reply with the category name only.

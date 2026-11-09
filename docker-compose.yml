@@ -1,0 +1,16 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: cardo
+      POSTGRES_PASSWORD: cardo
+      POSTGRES_DB: cardo
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./data:/data:ro
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
